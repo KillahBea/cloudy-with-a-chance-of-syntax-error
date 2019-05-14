@@ -9,4 +9,25 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-image: url(./images/mario.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.temperature {
+  color: white;
+  font-size: 3.5rem;
+  margin: 20% 0% 0% 15%;
+}
+input {
+  margin: 0% 0% 0% 15%;
+  height: 35px;
+  width: 300px;
+  border: 3px solid red;
+  border-radius: 3%;
+}
+.get {
+  height: 42px;
+  background-color: rgb(241, 207, 73);
+  border: 4px rgb(198, 143, 61) solid;
+  border-radius: 5%;
 }
